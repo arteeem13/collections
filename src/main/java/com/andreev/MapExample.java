@@ -9,13 +9,10 @@ public class MapExample {
     public static void main(String[] args) {
         Integer[] key = {1, 2, 3, 4, 5, 6, 7};
         String[] value = {"one", "two", "tree", "four", "one", "two", "One"};
-
         Map<Integer, String> hashMap = new HashMap<>();
-
         for (int i = 0; i < key.length; i++) {
             hashMap.put(key[i], value[i]);
         }
-
         System.out.println("Сравнение записи строковых данных в разные типы коллекций");
         System.out.println("Размер HashMap: " + hashMap.size());
         System.out.println("Весь HashMap: " + hashMap);
