@@ -5,7 +5,7 @@ import java.util.*;
 public class ListStringExample {
 
     public static void main(String[] args) {
-        String[] values = {"Book", "Cat", "Door" ,"apple" , "born", "dog", "Cat", "Book"};
+        String[] values = {"Book", "Cat", "Door", "apple", "born", "dog", "Cat", "Book"};
         List<String> stringArrayList = new ArrayList<>();
         Set<String> stringHashSet = new HashSet<>();
         Set<String> stringLinkedHashSet = new LinkedHashSet<>();

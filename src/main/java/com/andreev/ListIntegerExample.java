@@ -5,7 +5,7 @@ import java.util.*;
 public class ListIntegerExample {
 
     public static void main(String[] args) {
-        Integer[] values = {1, 47, 55 ,5 , 9, 6, 9 , 28, 9, 1};
+        Integer[] values = {1, 47, 55, 5, 9, 6, 9, 28, 9, 1};
         List<Integer> integerArrayList = new ArrayList<>();
         Set<Integer> integerHashSet = new HashSet<>();
         Set<Integer> integerLinkedHashSet = new LinkedHashSet<>();
